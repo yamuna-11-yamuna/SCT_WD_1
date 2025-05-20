@@ -1,5 +1,5 @@
-# 1skillCraft 🔧✨
-
+# SCT_WD_1 🔧✨
+    Elegant Landing Page
 A modern, responsive landing page project created using **HTML**, **CSS**, and **JavaScript** — perfect for portfolios, startups, or personal websites.
 
 ## 🚀 Features
