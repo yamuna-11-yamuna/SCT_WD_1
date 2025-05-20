@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elegant Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="icon" href="/favi.png" type="image/png" />
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+</head>
+
+<body>
+  <div class="progress-bar" id="progress-bar"></div>
+  <div class="loader" id="loader"></div>
+
+  <nav class="navbar" id="navbar">
+    <div class="logo">✨ MyBrand</div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+  
+  
+  <section class="hero" id="home">
+    <div class="hero-content" data-aos="fade-up">
+      <h1><span id="typewriter"></span></h1>
+      <p>Innovative. Seamless. Future-proof solutions for your business.</p>
+      <a href="#services" class="cta-btn">Explore Services</a>
+    </div>
+  </section>
+
+  <section id="services" class="info-section">
+    <h2 data-aos="fade-up">🌟 Our Services</h2>
+    <p data-ao s="fade-up" data-aos-delay="100">We offer tailored solutions for your digital needs.</p>
+    <div class="service-cards">
+      <div class="card" data-aos="zoom-in"><h3>Web Design</h3><p>Stunning responsive UI/UX designs.</p></div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="150"><h3>App Development</h3><p>Cross-platform robust mobile solutions.</p></div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="300"><h3>SEO & Marketing</h3><p>Grow organically & stay visible.</p></div>
+    </div>
+  </section>
+
+  <section id="about" class="about-timeline">
+  <div class="container" data-aos="fade-up">
+    <h2>About Us</h2>
+    <p class="subtitle">"Crafting your digital future step by step — with innovation, passion, and precision that transform ideas into impactful realities."</p>
+
+    <div class="timeline">
+      <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+        <div class="icon"><i class="fas fa-bullseye"></i></div>
+        <div class="content">
+          <h3>Our Mission</h3>
+          <p>Deliver user-centric, cutting-edge digital solutions that help brands evolve, grow, and thrive in a rapidly changing tech world.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+        <div class="icon"><i class="fas fa-eye"></i></div>
+        <div class="content">
+          <h3>Our Vision</h3>
+          <p>To redefine possibilities in tech by empowering creators, brands, and startups with future-ready platforms and digital tools.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-aos="fade-right" data-aos-delay="300">
+        <div class="icon"><i class="fas fa-heart"></i></div>
+        <div class="content">
+          <h3>Why Choose Us?</h3>
+          <ul>
+            <li><i class="fas fa-star"></i> Passionate, agile team</li>
+            <li><i class="fas fa-cogs"></i> Tech-first mindset</li>
+            <li><i class="fas fa-handshake"></i> Transparent process</li>
+            <li><i class="fas fa-chart-line"></i> Measurable results</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section id="testimonials" class="info-section alt">
+    <h2 data-aos="fade-up">💬 What Our Clients Say</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial" data-aos="fade-up" data-aos-delay="100">
+        <p>"Their service is exceptional. Our online presence skyrocketed after the redesign."</p>
+        <div class="author">
+          <img src="https://i.pravatar.cc/60?img=10" alt="Alex R.">
+          <span>Alex R. – CEO, Creative Co.</span>
+        </div>
+      </div>
+      <div class="testimonial" data-aos="fade-up" data-aos-delay="300">
+        <p>"Truly professional. The app they delivered exceeded our expectations!"</p>
+        <div class="author">
+          <img src="https://i.pravatar.cc/60?img=12" alt="Amartya.">
+          <span>Amartya. – Founder, Appify</span>
+        </div>
+      </div>
+      <div class="testimonial" data-aos="fade-up" data-aos-delay="500">
+        <p>"Super smooth collaboration and fantastic support throughout the process."</p>
+        <div class="author">
+          <img src="https://i.pravatar.cc/60?img=15" alt="Rahul T.">
+          <span>Rahul T. – Marketing Head, Trendex</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="info-section">
+    <h2 data-aos="fade-up">📬 Contact Us</h2>
+    <p data-aos="fade-up" data-aos-delay="100">Let’s build something amazing together.</p>
+    <form class="contact-form" data-aos="fade-up" data-aos-delay="200" action="mailto:contact@mybrand.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="cta-btn">Send Email</button>
+    </form>
+  </section>
+  
+  <footer class="footer">
+    <p>© 2025 MyBrand. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="social-links">
+  <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+  <a href="mailto:your@email.com"><i class="fas fa-envelope"></i></a>
+</div>
+
+  </footer>
+
+  <button id="back-to-top" class="back-to-top">↑</button>
+  <button id="theme-toggle" class="theme-toggle">🌙</button>
+
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+
+  <!-- Modal Overlay -->
+<div id="auth-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="close-auth-modal">&times;</span>
+
+    <div class="form-toggle">
+      <button id="sign-in-btn" class="active">Sign In</button>
+      <button id="sign-up-btn">Sign Up</button>
+    </div>
+
+    <form id="sign-in-form" class="auth-form">
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit" class="cta-btn">Sign In</button>
+    </form>
+
+    <form id="sign-up-form" class="auth-form" style="display:none;">
+      <input type="text" placeholder="Username" required />
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit" class="cta-btn">Sign Up</button>
+    </form>
+  </div>
+</div>
+
+<!-- Trigger Button -->
+<button id="auth-trigger" class="cta-btn" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999;">
+  Sign In / Sign Up
+</button>
+
+</body>
+</html>
