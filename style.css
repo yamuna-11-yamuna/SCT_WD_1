@@ -103,9 +103,13 @@ body {
 }
 
 .logo-img {
-  height: 40px;
-  width: auto;
+  width: 50px;       /* adjust size as needed */
+  height: 50px;      /* same as width for a perfect circle */
+  border-radius: 50%; /* this makes it circular */
+  object-fit: cover;  /* ensures image covers the circle nicely */
+  display: inline-block;
 }
+
 
 .nav-links {
   display: flex;
