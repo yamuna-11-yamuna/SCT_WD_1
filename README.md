@@ -1,5 +1,5 @@
 # SCT_WD_1 🔧✨
-   Elegant Landing Page
+    Elegant Landing Page
 A modern, responsive landing page project created using **HTML**, **CSS**, and **JavaScript** — perfect for portfolios, startups, or personal websites.
 
 ## 🚀 Features
@@ -20,3 +20,6 @@ A modern, responsive landing page project created using **HTML**, **CSS**, and *
 ├── favicon.ico # Icon for browser tab
 └── favi.png # Optional image/icon
 ```
+## 🌐 Live Demo
+
+[Click here to view the live site](https://yamuna-11-yamuna.github.io/SCT_WD_1/)
